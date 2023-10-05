@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Mais populares",
+        "id": 0
+    }, 
+    {
+        "titulo": "Mais avaliados",
+        "id": 1
+    },
+    {
+        "titulo": "Por vir",
+        "id": 2
+    }
+]

@@ -1,0 +1,41 @@
+.titulo {
+    color: var(--branco);
+    margin-bottom: 0;
+}
+
+.divReferencia {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.subtitulo {
+    color: var(--branco);
+}
+
+.link {
+    color: var(--branco);
+}
+
+.linkImagem {
+    width: 150px;
+}
+
+@media (max-width: 980px) {
+    .subtitulo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin-bottom: 2.5rem;
+    }
+
+    .divReferencia {
+        flex-direction: column;
+    }
+
+    .subtitulo {
+        width: 100%;
+    }
+}

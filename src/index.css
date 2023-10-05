@@ -1,0 +1,26 @@
+:root {
+  --fonte: 'Nunito', sans-serif;
+  --cor-de-fundo: linear-gradient(180deg, #8000FF 0%, #2a2c3a 70%);
+  --branco: #FFFFFF;
+  --cor-fundo-card: #3c3d4b;
+  --cor-botao: #d9d9d952;
+  --cor-botao-hover: #d9d9d982;
+  --preto: #000000;
+
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cor-de-fundo);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: var(--fonte);
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
